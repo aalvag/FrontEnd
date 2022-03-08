@@ -35,6 +35,7 @@ export default {
       iosClientId: process.env.IOS_CLIENT_ID,
       expoClientId: process.env.EXPO_CLIENT_ID,
       googleApiUrl: process.env.GOOGLE_API_URL,
+      apiUrl: process.env.API_URL,
     },
     scheme: "find-me",
   },
