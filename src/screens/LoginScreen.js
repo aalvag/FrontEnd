@@ -57,7 +57,7 @@ const LoginScreen = ({ navigation }) => {
   }, [accessToken]);
 
   React.useEffect(() => {
-    if (authToken || success) navigation.navigate("Home");
+    if (authToken || success) navigation.navigate("Report");
     if (userInfo && userInfo.email) {
       dispatch(
         signIn({
